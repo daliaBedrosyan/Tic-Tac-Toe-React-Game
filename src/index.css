@@ -20,8 +20,8 @@ html {
 body {
   background: radial-gradient(
       circle at top,
-      rgba(241, 210, 70, 0.98),
-      rgba(250, 176, 103, 0.87)
+      rgba(239, 160, 1, 0.98),
+      rgba(242, 179, 117, 0.87)
     ),
     url('bg-pattern-dark.png');
   background-repeat: repeat;
@@ -285,7 +285,7 @@ ol {
   margin-top: 1.5rem;
 }
 
-@keyframes slide-in-from-left {
+/* @keyframes slide-in-from-left {
   0% {
     opacity: 0;
     transform: translateX(-30%);
@@ -335,7 +335,6 @@ ol {
   }
 }
 
-/* Fancy animation for showing the "Game Over" element */
 @keyframes pop-in {
   0% {
     transform: scale(0);
@@ -348,4 +347,4 @@ ol {
   100% {
     transform: scale(1);
   }
-}
+} */
